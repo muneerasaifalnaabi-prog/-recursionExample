@@ -6,7 +6,11 @@ public class PairStar {
      }
      //Recursive Case
      else {
-         if ()
+         char first =str.charAt(0);
+         char next =str.charAt(1);
+         if (==){
+
+         }
      }
 
 
