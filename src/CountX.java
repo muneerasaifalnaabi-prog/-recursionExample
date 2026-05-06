@@ -4,6 +4,7 @@ public class CountX {
         if (str.length() == 0){
             return 0;
         }
+        //Recursive Case
         else{
             char firstChar =str.charAt(0);
 
