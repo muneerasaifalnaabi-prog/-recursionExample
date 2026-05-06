@@ -4,6 +4,11 @@ public class PairStar {
      if (str.length() <=1){
        return str;
      }
+     //Recursive Case
+     else {
+         if ()
+     }
+
 
  }
 }
