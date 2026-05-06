@@ -3,5 +3,11 @@ public class StrCount {
         if (str.length() < sub.length()) {
             return 0;
         }
+        else {
+            //Recursive Case
+            String start =  str.substring(0, sub.length());
+
+        }
+
     }
 }
