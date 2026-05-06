@@ -6,6 +6,9 @@ public class Array11 {
         }
         //Recursive Case
         else {
+            if (nums[index] == 11){
+
+            }
 
         }
 
