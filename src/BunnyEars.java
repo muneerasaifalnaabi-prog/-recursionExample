@@ -10,6 +10,8 @@ public class BunnyEars {
                 return 3+bunnyEars2(n-1);
 
             }
+            else
+                return 2+bunnyEars2(n-1);
         }
 
     }
