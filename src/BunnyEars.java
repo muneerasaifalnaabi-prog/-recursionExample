@@ -7,6 +7,7 @@ public class BunnyEars {
         }
         else {
             if (n%2==0){
+                return 3+bunnyEars2(n-1);
 
             }
         }
