@@ -8,7 +8,8 @@ public class PairStar {
      else {
          char first =str.charAt(0);
          char next =str.charAt(1);
-         if (==){
+         if (first==next){
+
 
          }
      }
