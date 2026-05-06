@@ -6,7 +6,9 @@ public class CountAbc {
       }
       else {
           //Recursive Case
-          if (str.substring(1,4)=="aba"){
+          if (str.substring(1,4)=="abc" ||str.substring(1,4)=="aba" ){
+
+
 
           }
       }
