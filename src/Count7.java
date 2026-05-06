@@ -7,6 +7,9 @@ public class Count7 {
         //Recursive Case
         int lastDigit = n % 10;
         int remainig =n/10;
+        if (lastDigit==7){
+
+        }
 
 
     }
