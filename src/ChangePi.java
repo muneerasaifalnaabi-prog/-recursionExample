@@ -11,6 +11,7 @@ public class ChangePi {
             }
             else {
                 char first = str.charAt(0);
+                return first +changePi(str.substring(1));
             }
 
         }
