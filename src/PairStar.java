@@ -6,13 +6,13 @@ public class PairStar {
      }
      //Recursive Case
      else {
-         String first = String.valueOf(str.charAt(0));
-         String next = String.valueOf(str.charAt(1));
+         char first = str.charAt(0);
+         char next = str.charAt(1);
          if (first==next){
-             return  first + "*" + pairStar(next);
+             return  first + "*" + pairStar(str.substring(1));
          }
          else
-            return first + pairStar(next);
+            return first + pairStar(str.substring(1));
      }
  }
 }
