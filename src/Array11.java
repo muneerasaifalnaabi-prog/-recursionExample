@@ -7,7 +7,7 @@ public class Array11 {
         //Recursive Case
         else {
             if (nums[index] == 11){
-
+                return 1 + array11(nums, index + 1);
             }
 
         }
