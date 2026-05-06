@@ -1,5 +1,9 @@
 public class PairStar {
  public String  pairStar(String str){
+     //Base Case
+     if (str.length() <=1){
+
+     }
 
  }
 }
