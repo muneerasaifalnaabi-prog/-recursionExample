@@ -6,9 +6,10 @@ public class PairStar {
      }
      //Recursive Case
      else {
-         char first =str.charAt(0);
-         char next =str.charAt(1);
+         String first = String.valueOf(str.charAt(0));
+         String next = String.valueOf(str.charAt(1));
          if (first==next){
+             return  first + "*" + pairStar(next);
 
 
          }
