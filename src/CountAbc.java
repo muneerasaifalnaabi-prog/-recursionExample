@@ -4,6 +4,12 @@ public class CountAbc {
       if (str.length()>3){
           return 0;
       }
+      else {
+          //Recursive Case
+          if (str.substring(1,4)=="aba"){
+
+          }
+      }
 
   }
 
