@@ -7,8 +7,8 @@ public class Array11Demo {
         int[] arr2={1, 2, 3, 4};
 
         System.out.println(array11.array11(arr, 0));
-        System.out.println(array11.array11(arr, 0));
-        System.out.println(array11.array11(arr, 0));
+        System.out.println(array11.array11(arr1, 0));
+        System.out.println(array11.array11(arr2, 0));
 
 
 
