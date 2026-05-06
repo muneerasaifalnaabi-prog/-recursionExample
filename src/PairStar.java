@@ -10,11 +10,9 @@ public class PairStar {
          String next = String.valueOf(str.charAt(1));
          if (first==next){
              return  first + "*" + pairStar(next);
-
-
          }
+         else
+            return first + pairStar(next);
      }
-
-
  }
 }
