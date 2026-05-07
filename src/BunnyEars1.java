@@ -4,6 +4,12 @@ public class BunnyEars1 {
         if (n==0){
             return 0;
         }
+        //Recursive Case
+        if (n==2){
+            return  2 + bunnyEars(n - 1) ;
+
+
+        }
 
     }
 
