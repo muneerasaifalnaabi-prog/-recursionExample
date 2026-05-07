@@ -18,7 +18,7 @@ public class Count8 {
             else {
                 count =0;
         }
-            return
+            return count+count8(removelastDigit);
         }
 
     }
