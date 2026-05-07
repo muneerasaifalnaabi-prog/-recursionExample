@@ -6,7 +6,12 @@ public class Count8 {
         }
         //Recursive Case
         else{
-            int lastDigit
+            int lastDigit = n%10;
+            int sconedLastDigit =  (n / 10) % 10;
+            int removelastDigit = n/10;
+            if (lastDigit == 8 && sconedLastDigit == 8) {
+
+            }
         }
 
     }
