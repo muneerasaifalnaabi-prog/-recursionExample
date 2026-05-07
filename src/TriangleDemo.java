@@ -3,6 +3,10 @@ public class TriangleDemo {
         //Created Object
         Triangle triangle = new Triangle();
 
+        System.out.println(triangle.triangle(0));
+        System.out.println(triangle.triangle(1));
+        System.out.println(triangle.triangle(3));
+
 
     }
 }
