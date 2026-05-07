@@ -9,9 +9,16 @@ public class Count8 {
             int lastDigit = n%10;
             int sconedLastDigit =  (n / 10) % 10;
             int removelastDigit = n/10;
+            int count =0 ;
             if (lastDigit == 8 && sconedLastDigit == 8) {
-
+                count = 2;
+            } else if (lastDigit==8) {
+                count=1;
             }
+            else {
+                count =0;
+        }
+            return
         }
 
     }
