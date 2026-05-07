@@ -5,11 +5,8 @@ public class BunnyEars1 {
             return 0;
         }
         //Recursive Case
-        else {
-            if (n == 2) {
                 return 2 + bunnyEars(n - 1);
             }
 
         }
-    }
-}
+
